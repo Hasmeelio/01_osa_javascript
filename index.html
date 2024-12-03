@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript 01 osa</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./layout.css" />
+  </head>
+  <body>
+    <h1>Hei JavaScript</h1>
+    <p>Kirjoitan nyt sinulle ensimmäistä kertaa.</p>
+    <p>
+      Tehtävänä on koodata JavaScriptillä keskusteluikkuna, johon lisätään
+      sisältö "Hyvää huomenta!". (alert)
+    </p>
+    <p>
+      Toisena tehtävänä kirjoittaa selaimen konsoliin jotakin. (console.log)
+    </p>
+    <!-- JavaScript lisätään bodyn loppuun, jotta se käy ensin läpi html tiedoston DOM-rakenteen ennen kuin aktivoituu -->
+    <script>
+      // javascriptin kommentti samoin kuin C#
+      alert("Hyvää\n huomenta!");
+      console.log("Tämä teksti tulostuu selaimen konsoliin.");
+      let numerot = [1, 3, 5, 7];
+      console.log(numerot);
+      numerot.push(9); // Lisää taulukon loppuun numeron 9
+	  console.log(numerot);
+    </script>
+  </body>
+</html>
